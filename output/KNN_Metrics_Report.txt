@@ -1,0 +1,30 @@
+
+Table for K Nearest Neighbor (weights function = 'uniform')
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         5
+           4       0.50      0.07      0.13        40
+           5       0.45      0.47      0.46       289
+           6       0.49      0.65      0.56       434
+           7       0.40      0.20      0.27       176
+           8       0.50      0.03      0.05        37
+
+    accuracy                           0.47       981
+   macro avg       0.39      0.24      0.25       981
+weighted avg       0.46      0.47      0.44       981
+
+
+Table for K Nearest Neighbor (weights function = 'distance')
+              precision    recall  f1-score   support
+
+           3       0.00      0.00      0.00         5
+           4       1.00      0.12      0.22        40
+           5       0.61      0.57      0.59       289
+           6       0.59      0.77      0.67       434
+           7       0.65      0.48      0.55       176
+           8       0.83      0.27      0.41        37
+
+    accuracy                           0.61       981
+   macro avg       0.61      0.37      0.41       981
+weighted avg       0.63      0.61      0.59       981
+
